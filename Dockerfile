@@ -8,6 +8,7 @@ RUN apt-get install -y gcc-multilib g++-multilib
 RUN apt-get install -y libtool autoconf
 RUN apt-get install -y git joe ccache
 RUN apt-get install -y libcurl4-gnutls-dev
+RUN apt-get install -y zlib1g-dev
 RUN apt-get install -y uuid-dev
 
 # add ccache to PATH
